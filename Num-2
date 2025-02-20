@@ -1,4 +1,6 @@
 @startuml
+Circunferencia ---> Punto2D
+
 class Punto2D {
   - m_coordX: double
   - m_coordY: double
@@ -26,5 +28,4 @@ class Circunferencia {
   + calcularPerimetro(): double
 }
 
-Circunferencia --> Punto2D
 @enduml
