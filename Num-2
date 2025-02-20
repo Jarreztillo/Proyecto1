@@ -1,5 +1,5 @@
 @startuml
-Circunferencia ---> Punto2D
+-Circunferencia ---> Punto2D
 
 class Punto2D {
   - m_coordX: double
